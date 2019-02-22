@@ -1,0 +1,43 @@
+#contact_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+#contact_heading_container {
+    width: 50%;
+    height: 100%;
+    background-color: #2dcca7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact_content_container {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #292929;
+}
+
+#contact_content_sub_container {
+    width:80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#socail_nav_bar_list {
+    list-style-type: none;
+    min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}

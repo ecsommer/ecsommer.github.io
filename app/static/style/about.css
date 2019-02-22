@@ -1,0 +1,172 @@
+#about_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #2dcca7;
+}
+
+#about_heading_container {
+    width: 50%;
+    height: 100%;
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about_content_container {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    color: #292929;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
+
+#about_intro {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 80%;
+}
+
+#about_career {
+    padding-bottom: 2rem;
+    width: 80%;
+    border-top: solid 1px #292929;
+}
+
+#about_timeline{
+    padding-bottom: 2rem;
+    width: 80%;
+    border-top: solid 1px #292929;
+}
+
+#about_closing {
+    padding-bottom: 2rem;
+    width: 80%;
+    border-top: solid 1px #292929;
+}
+
+#about_closing > div {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#about_closing > div > p{
+    padding-left: 2rem;
+}
+
+.about_span_teal {
+    color: #2dcca7;
+}
+
+.timeline-point {
+    display: flex;
+    align-items: center;
+}
+
+.timeline-point > p {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.timeline-point > p > span {
+    font-size: .75em;
+}
+
+.timeline-dot {
+    height: 15px;
+    width: 15px;
+    background-color: #2dcca7;
+    border-radius: 50%;
+    display: inline-block;
+    border: solid 1px #292929;
+}
+
+.timeline-line-right-long {
+    padding-left: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.timeline-line-right-long > span {
+    height: 2px;
+    width: 30px;
+    border-radius: 1px;
+    background-color: #2dcca7;
+    display: inline-block;
+    padding-left: 3px;
+}
+
+.timeline-line-right {
+    padding-left: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.timeline-line-right > span {
+    height: 2px;
+    width: 15px;
+    border-radius: 1px;
+    background-color: #2dcca7;
+    display: inline-block;
+    padding-left: 3px;
+}
+
+.timeline-line-down {
+    padding-left: 6.5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.timeline-line-down > span{
+    height: 50px;
+    width: 2px;
+    background-color: #2dcca7;
+    display: inline-block;
+}
+
+#hexagon_container {
+    width: 0%;
+    height: 0%;
+    position: relative;
+    top: 25%;
+    right: 50px;
+}
+
+#hexagon {
+    width: 100px;
+    height: 55px;
+    background: #2dcca7;
+    position: relative;
+}
+
+#hexagon:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid #2dcca7;
+}
+
+#hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid #2dcca7;
+}
